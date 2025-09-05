@@ -1,10 +1,10 @@
 # Rslib Build Bug Example project
 
 ## Dependency Environment
-	•	node: v20.12.0
-	•	pnpm: 10.12.1
-	•	@rslib/core: 0.12.4
-	•	@rstest/core: 0.3.0
+* node: v20.12.0
+* pnpm: 10.12.1
+* @rslib/core: 0.12.4
+* @rstest/core: 0.3.0
 
 ## Problem Description
 When building a project with rslib and configuring rslib.config.ts as follows, after compilation the file dynamic-components.ts will not generate export statements in the output dynamic-components.js.
